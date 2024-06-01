@@ -1,8 +1,8 @@
-# Tamagotchi-Pet-Game
+# Tamagotchi
 
-Tamagotchi Pet Game in C++
+Tamagotchi in C++
 
-Welcome to the repository for my Tamagotchi Pet Game called Play Land! This project uses C++ to create an interactive virtual pet game. It displays several C++ features, such as pointers, classes, inheritance, polymorphism, file I/O, and conditional game loops.
+Welcome to the repository for my game called Tamagotchi! This project uses C++ to create an interactive virtual pet game. It displays several C++ features, such as pointers, classes, file I/O, and conditional game loops.
 
 Description:
 

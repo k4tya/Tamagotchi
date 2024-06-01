@@ -76,7 +76,7 @@ bool Manage::create() {
         pet = new Dog(name, "Dog");
         if (!check(pet)) {
             add(pet);
-            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " has been added to Play Land!" << endl;
+            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " has been added to Tamagotchi!" << endl;
             cout << "Enter any key to continue!" << endl << endl;
             string key;
             cin >> key;
@@ -84,7 +84,7 @@ bool Manage::create() {
             cout << endl << "-------------------------------------------------------------------------------------------------------------------------------------------------------------";
         }
         else {
-            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " is already in Play Land!" << endl << endl;
+            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " is already in Tamagotchi!" << endl << endl;
             cout << "Enter any key to continue!" << endl << endl;
             string key;
             cin >> key;
@@ -105,7 +105,7 @@ bool Manage::create() {
         pet = new Cat(name, "Cat");
         if (!check(pet)) {
             add(pet);
-            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " has been added to Play Land!" << endl;
+            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " has been added to Tamagotchi!" << endl;
             cout << "Enter any key to continue!" << endl << endl;
             string key;
             cin >> key;
@@ -113,7 +113,7 @@ bool Manage::create() {
             cout << endl << "-------------------------------------------------------------------------------------------------------------------------------------------------------------";
         }
         else {
-            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " is already in Play Land!" << endl << endl;
+            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " is already in Tamagotchi!" << endl << endl;
             cout << "Enter any key to continue!" << endl << endl;
             string key;
             cin >> key;
@@ -134,7 +134,7 @@ bool Manage::create() {
         pet = new Bunny(name, "Bunny");
         if (!check(pet)) {
             add(pet);
-            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " has been added to Play Land!" << endl;
+            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " has been added to Tamagotchi!" << endl;
             cout << "Enter any key to continue!" << endl << endl;
             string key;
             cin >> key;
@@ -142,7 +142,7 @@ bool Manage::create() {
             cout << endl << "-------------------------------------------------------------------------------------------------------------------------------------------------------------";
         }
         else {
-            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " is already in Play Land!" << endl << endl;
+            cout << endl << "Your " << pet->getType() << " " << pet->getName() << " is already in Tamagotchi!" << endl << endl;
             cout << "Enter any key to continue!" << endl << endl;
             string key;
             cin >> key;

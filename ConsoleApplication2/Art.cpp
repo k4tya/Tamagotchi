@@ -4,7 +4,7 @@ using namespace std;
 
 void Art::drawMenu() {
     cout << endl << endl;
-    cout << "Welcome to Play Land, your pets await you!" << endl;
+    cout << "Welcome to Tamagotchi, your pets await you!" << endl;
     cout << "-------------------------------------------------------------------------------------------------------------------------------------------------------------" << endl << endl;
     cout << "Dog:" << endl;
     cout << "     __" << endl;
@@ -71,7 +71,7 @@ void Art::drawTutorial() {
     cout << "`--'   `--' `----'`--''--' `----'" << endl;
 
 
-    cout << endl << endl << "Play land is an RPG where you are given the option to choose between 3 pets, a dog, a cat, and a bunny." << endl << endl;
+    cout << endl << endl << "Tamagotchi is an RPG where you are given the option to choose between 3 pets, a dog, a cat, and a bunny." << endl << endl;
     cout << "The objective of the game is to take care of your pet, name it, feed it, play with it... etc." << endl << endl;
     cout << "Each pet has unique attributes of hunger, tiredness, and happiness based on their nature." << endl << endl;
     cout << "These stats increase or decrease however when you choose to progress to the next in game hour." << endl << endl;
